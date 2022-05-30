@@ -15,7 +15,7 @@ import org.springframework.stereotype.Controller;
 public class MyConfig {
     @Bean("hello")//给容器中注册一个bean，类型：默认返回值类型，id默认方法名
     public User user(){
-        return new User(23,"li");
+        return new User(23,"牛");
     }
     String name ="li";
 }
