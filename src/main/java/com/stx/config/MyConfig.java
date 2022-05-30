@@ -17,4 +17,5 @@ public class MyConfig {
     public User user(){
         return new User(23,"lihua");
     }
+    String name ="li";
 }
